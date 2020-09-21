@@ -23,7 +23,8 @@ The solution needs to do the following steps:
     pip install pdf2image
     pip install pillow
     pip install pytesseract
-    sudo apt-get install tesseract-ocr tesseract-ocr
+    pip install tesseract-ocr tesseract-ocr
+    conda install -c mcs07 tesseract
     
   Step 1: PDF -> jpg
   Step 2: Use pytesseract to convert image to text
